@@ -107,37 +107,37 @@ main {
 main .container {
   height: 800px;
 }
-/* Fist Section */
-#first-section {
-  height: 800px;
-  position: relative;
-}
-.left-col {
-  position: relative;
+/* Fist to third Section */
+section {
   height: 800px;
 }
-.left-col img {
+.img-col {
+  position: relative;
+  height: 800px;
+}
+.img-col img {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.right-col {
+.text-col {
   position: relative;
   height: 800px;
   text-align: left;
 }
-.right-col-content {
+.text-col-content {
   position: absolute;
-  top: 56%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.right-col h1,
-.right-col p {
+.text-col h1,
+.text-col p {
   width: 500px;
   text-align: left;
 }
+/* Fourth section */
 
 /*Utilities  */
 .w20 {
