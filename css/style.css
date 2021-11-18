@@ -8,7 +8,7 @@ img {
   max-width: 100%;
 }
 body {
-  font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: "Whitney", "Helvetica Neue", "Helvetica", "Arial, sans-serif";
 }
 .clearfix::after {
   content: "";
@@ -41,10 +41,6 @@ a {
   list-style: none;
   line-height: 80px;
 }
-a:hover {
-  text-decoration: underline;
-  color: blue;
-}
 .menu li {
   display: inline;
   margin-right: 40px;
@@ -58,7 +54,7 @@ a:hover {
   height: 800px;
   position: relative;
 }
-.jumbotron .container {
+.jumbotron {
   height: 800px;
 }
 .light-button {
@@ -92,7 +88,7 @@ a:hover {
   font-size: 19px;
   border-radius: 30px;
 }
-#Mac-download {
+.Mac-download {
   padding-left: 30px;
   margin-right: 20px;
   margin-left: 20px;
@@ -102,10 +98,7 @@ a:hover {
 }
 /* MAIN */
 main {
-  height: 3200px;
-}
-main .container {
-  height: 800px;
+  height: 3400px;
 }
 /* Fist to third Section */
 section {
@@ -138,8 +131,61 @@ section {
   text-align: left;
 }
 /* Fourth section */
-
+.top-content,
+p,
+.img-content,
+.bot-content {
+  text-align: center;
+}
+.top-content {
+  text-align: center;
+}
+#bottom-content-box {
+  position: relative;
+  height: 200px;
+}
+#bottom-content {
+  background-image: url("../img/stars.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100px;
+  width: 800px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#bottom-content h2 {
+  position: absolute;
+  font-size: 2rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.last-box-container {
+  position: relative;
+  height: 50px;
+}
+.last-box-container a {
+  position: absolute;
+  background-color: #8ea1e1;
+  color: white;
+  line-height: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* FOOTER */
+footer {
+  height: 400px;
+  background-color: slategrey;
+  width: 100%;
+}
 /*Utilities  */
+a:hover {
+  text-decoration: underline;
+  color: blue;
+}
 .w20 {
   width: 20%;
 }
@@ -152,6 +198,12 @@ section {
 .w60 {
   width: 60%;
 }
+.h20 {
+  height: 20%;
+}
+.h60 {
+  height: 60%;
+}
 .text {
   font-size: 4rem;
   text-align: center;
@@ -161,5 +213,4 @@ p {
   font-size: 20px;
   word-spacing: 2px;
   padding: 10px 5px 5px 5px;
-  max-width: 800px;
 }
