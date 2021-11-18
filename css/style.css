@@ -98,7 +98,11 @@ a {
 }
 /* MAIN */
 main {
-  height: 3400px;
+  /* height: 3400px; */
+}
+main section{
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 /* Fist to third Section */
 section {
@@ -131,15 +135,12 @@ section {
   text-align: left;
 }
 /* Fourth section */
-.top-content,
-p,
-.img-content,
-.bot-content {
-  text-align: center;
+section#fourth-section{
+  height:984px;
 }
-.top-content {
+.top-content ,  .img-content{
   text-align: center;
-}
+} 
 #bottom-content-box {
   position: relative;
   height: 200px;
@@ -207,10 +208,11 @@ a:hover {
 .text {
   font-size: 4rem;
   text-align: center;
+  padding: 20px;
 }
 p {
   font-size: 1.1rem;
   font-size: 20px;
   word-spacing: 2px;
-  padding: 10px 5px 5px 5px;
+  padding: 20px;
 }
